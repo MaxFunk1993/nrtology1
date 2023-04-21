@@ -3,10 +3,10 @@ package ru.netology.services;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class monthServiceTest {
+public class MonthServiceTest {
     @Test
     void Test() {
-        monthSrvice service = new monthSrvice();
+        MonthSrvice service = new MonthSrvice();
 
         int income = 10_000;
         int expenses = 3_000;
